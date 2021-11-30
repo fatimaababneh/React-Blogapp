@@ -1,7 +1,27 @@
 .App {
-  text-align: center;
+  margin:  5em;
 }
+.register{
 
+
+}
+.form-style{
+  display: grid;
+  grid-template-rows: repeat(2,fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30em;
+  height: 30em;
+  margin:5em auto;
+  box-shadow: 0px 5px 15px 0px;
+  transform: rotate(2px);
+  border-radius: 15px;
+  /* box-shadow: 0px 0px 5px 15px; */
+}
+.form-style form{
+  padding: 2em;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
